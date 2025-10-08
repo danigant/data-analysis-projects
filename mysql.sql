@@ -1,0 +1,4 @@
+SELECT TOP 1000 *
+FROM dbo.ratings
+ORDER BY book_id DESC
+GO
