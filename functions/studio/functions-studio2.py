@@ -9,14 +9,13 @@ def reverse_characters(value):
         return reversed_number
 
 # # b) Within the function, use the 'list' function to split a string into a list of individual characters
-    else: 
-        my_list = list(value)
+    my_list = list(value)
 # # c) 'reverse' your new list.
-        reverse_list = reversed(my_list)
+    reverse_list = reversed(my_list)
 
 # # d) Use 'join' to create the reversed string and return that string from the function.
-        reversed_string =  "".join(reverse_list)
-        return reversed_string
+    reversed_string =  "".join(reverse_list)
+    return reversed_string
 
 # # e) Create a variable of type string to test your new function. 
 value = "hello world"
